@@ -2,24 +2,40 @@ Resolutions = new Mongo.Collection('resolutions');
 
 if (Meteor.isClient) {
   Template.body.helpers({
-    resolutions : function () {
-        return Resolutions.find();
-    }
+      resolutions : function () {
+
+            if(Session.get('hideFinished')){
+                return Resolutions.find({checked:{$ne:true}});
+            }else{
+                return Resolutions.find();
+            }
+
+      },
+
+      hideFinished : function () {
+
+            return Session.get('hideFinished');
+
+      }
   });
 
   Template.body.events({
-    'submit .new-resolution':function (event) {
-        var title = event.target.title.value;
+      'submit .new-resolution':function (event) {
+            var title = event.target.title.value;
 
-        Resolutions.insert({
-            title:title,
-            createdAt: new Date()
-        });
+            Resolutions.insert({
+                title:title,
+                createdAt: new Date()
+            });
 
-        event.target.title.value="";
+            event.target.title.value="";
 
-        return false;
-    }
+            return false;
+      },
+
+      'change .hide-finished':function (event) {
+            Session.set('hideFinished',event.target.checked);
+      }
   });
 
   Template.resolution.events({
