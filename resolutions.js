@@ -13,9 +13,7 @@ if (Meteor.isClient) {
       },
 
       hideFinished : function () {
-
             return Session.get('hideFinished');
-
       }
   });
 
@@ -46,6 +44,10 @@ if (Meteor.isClient) {
       'click .delete': function () {
           Resolutions.remove(this._id);
       }
+  });
+
+  Accounts.ui.config({
+      passwordSignupFields:"USERNAME_ONLY"
   });
 }
 
