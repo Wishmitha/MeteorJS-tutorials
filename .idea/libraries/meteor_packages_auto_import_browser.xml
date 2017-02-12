@@ -31,6 +31,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/jquery/1.11.3/web.browser/packages/jquery.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ordered-dict/1.0.2/web.browser/packages/ordered-dict.js" />
         <item url="file://$USER_HOME$/.meteor/packages/random/1.0.2/web.browser/packages/random.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/cryptoquick_stylus-multi/1.2.1/web.browser/packages/cryptoquick:stylus-multi.js" />
         <item url="file://$USER_HOME$/.meteor/packages/follower-livedata/1.0.3/web.browser/packages/follower-livedata.js" />
         <item url="file://$USER_HOME$/.meteor/packages/json/1.0.2/web.browser/packages/json.js" />
         <item url="file://$USER_HOME$/.meteor/packages/url/1.0.3/web.browser/packages/url.js" />
@@ -80,6 +81,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/jquery/1.11.3/web.browser/packages/jquery.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ordered-dict/1.0.2/web.browser/packages/ordered-dict.js" />
       <root url="file://$USER_HOME$/.meteor/packages/random/1.0.2/web.browser/packages/random.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/cryptoquick_stylus-multi/1.2.1/web.browser/packages/cryptoquick:stylus-multi.js" />
       <root url="file://$USER_HOME$/.meteor/packages/follower-livedata/1.0.3/web.browser/packages/follower-livedata.js" />
       <root url="file://$USER_HOME$/.meteor/packages/json/1.0.2/web.browser/packages/json.js" />
       <root url="file://$USER_HOME$/.meteor/packages/url/1.0.3/web.browser/packages/url.js" />
