@@ -21,7 +21,6 @@
         <item url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.2/web.browser/packages/blaze-tools.js" />
         <item url="file://$USER_HOME$/.meteor/packages/boilerplate-generator/1.0.2/web.browser/packages/boilerplate-generator.js" />
         <item url="file://$USER_HOME$/.meteor/packages/callback-hook/1.0.2/web.browser/packages/callback-hook.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/insecure/1.0.2/web.browser/packages/insecure.js" />
         <item url="file://$USER_HOME$/.meteor/packages/observe-sequence/1.0.4/web.browser/packages/observe-sequence.js" />
         <item url="file://$USER_HOME$/.meteor/packages/check/1.0.4/web.browser/packages/check.js" />
         <item url="file://$USER_HOME$/.meteor/packages/jquery/1.11.3/web.browser/packages/jquery.js" />
@@ -92,7 +91,6 @@
       <root url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.2/web.browser/packages/blaze-tools.js" />
       <root url="file://$USER_HOME$/.meteor/packages/boilerplate-generator/1.0.2/web.browser/packages/boilerplate-generator.js" />
       <root url="file://$USER_HOME$/.meteor/packages/callback-hook/1.0.2/web.browser/packages/callback-hook.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/insecure/1.0.2/web.browser/packages/insecure.js" />
       <root url="file://$USER_HOME$/.meteor/packages/observe-sequence/1.0.4/web.browser/packages/observe-sequence.js" />
       <root url="file://$USER_HOME$/.meteor/packages/check/1.0.4/web.browser/packages/check.js" />
       <root url="file://$USER_HOME$/.meteor/packages/jquery/1.11.3/web.browser/packages/jquery.js" />
