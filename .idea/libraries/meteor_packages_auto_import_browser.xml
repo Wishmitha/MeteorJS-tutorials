@@ -68,7 +68,6 @@
         <item url="file://$USER_HOME$/.meteor/packages/htmljs/1.0.3/web.browser/packages/htmljs.js" />
         <item url="file://$USER_HOME$/.meteor/packages/application-configuration/1.0.4/web.browser/packages/application-configuration.js" />
         <item url="file://$USER_HOME$/.meteor/packages/email/1.0.5/web.browser/packages/email.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/autopublish/1.0.2/web.browser/packages/autopublish.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -138,7 +137,6 @@
       <root url="file://$USER_HOME$/.meteor/packages/htmljs/1.0.3/web.browser/packages/htmljs.js" />
       <root url="file://$USER_HOME$/.meteor/packages/application-configuration/1.0.4/web.browser/packages/application-configuration.js" />
       <root url="file://$USER_HOME$/.meteor/packages/email/1.0.5/web.browser/packages/email.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/autopublish/1.0.2/web.browser/packages/autopublish.js" />
     </CLASSES>
     <SOURCES />
   </library>
