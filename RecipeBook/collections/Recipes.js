@@ -1,8 +1,19 @@
-Recipes = new Meteor.Collection('recipes');
+Recipes = new Mongo.Collection('recipes');
 
 Recipes.allow({
     insert:function (userID,doc) {
         return !!userID;
+    }
+});
+
+Ingridient = new SimpleSchema({
+
+    name:{
+        type:String
+    },
+
+    amunt:{
+        type:String
     }
 });
 
@@ -15,6 +26,19 @@ RecipeSchema = new SimpleSchema({
     desc: {
         type:String,
         label:"Description"
+    },
+
+    ingridients:{
+        type : [Ingridient]
+    },
+
+    inMenu:{
+        type: Boolean,
+        defaultValue : false,
+        optional: true,
+        autoform:{
+            type:"hidden"
+        }
     },
 
     author: {
