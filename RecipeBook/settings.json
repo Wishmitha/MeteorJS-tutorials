@@ -1,0 +1,9 @@
+{
+  "public":{
+    "test":"This is public"
+  },
+
+  "private":{
+    "test":"This is Private"
+  }
+}
