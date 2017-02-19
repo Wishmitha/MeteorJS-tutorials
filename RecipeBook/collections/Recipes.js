@@ -12,7 +12,7 @@ Ingridient = new SimpleSchema({
         type:String
     },
 
-    amunt:{
+    amount:{
         type:String
     }
 });

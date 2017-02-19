@@ -1,14 +1,5 @@
 <template name="NewRecipe">
     <div class="new-recipe-container">
-        <div class="row">
-
-            <div class="col-md-1"></div>
-
-            <div class="col-md-10">
-                {{> quickForm collection="Recipes" id="insertRecipeForm" type="insert" class="new-recipe-form"}}
-            </div>
-
-            <div class="col-md-1"></div>
-        </div>
+        {{> quickForm collection="Recipes" id="insertRecipeForm" type="insert" class="new-recipe-form"}}
     </div>
 </template>
